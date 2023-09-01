@@ -9,7 +9,7 @@
     
 }
 body {
-    background-image: url('background.png');
+    background-image: url('imgs/background.png');
     margin: 0;
     background-attachment: fixed;
     background-repeat: repeat;
