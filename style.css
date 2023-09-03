@@ -8,7 +8,7 @@
     
 }
 body {
-    background-color:#a3080c;
+    background-color:white;
 
     
     
@@ -34,7 +34,7 @@ font-weight: bolder;
 nav ul { 
     display: inline-flex;
     position: relative;
-    top: 30px;
+    top: 25px;
     left: 24%;
     
 
@@ -86,7 +86,7 @@ color: #a3080c;`
 
 }
 
-h1 {
+.t1 {
 font-size: 60px
 }
 
@@ -97,7 +97,7 @@ h2 {
 }
 
 
-.djaj {
+.fond {
 
    
     
@@ -120,3 +120,21 @@ h2 {
     padding: 8px;
     box-shadow: 1px 1px 2px 0px red;
 }
+
+.banniere {
+background-size: cover;
+background-position: center center;
+position: relative;
+top:80px;
+padding: 60px;
+text-align: center;
+text-shadow: 2px 3px 10px rgb(0, 0, 0);
+box-shadow: 1px 1px 2px 0px red;
+font-size: 33px;
+
+
+
+
+}
+
+
