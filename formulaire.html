@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Viga&display=swap" rel="stylesheet">
     </head>
 
-<body>
+<body background="images/fond2.jpg" style="background-size: cover;overflow-x: hidden;">
 
 
 <nav>
@@ -33,12 +33,30 @@
 
 <main>
     <div class="banniere" style="background-image: url(images/contact.jpg); ">
-        <h1> Contactez-nous</h2>
+        <h1> Contactez-nous</h1>
     </div>
-    <main>
-        <div class="contenu">
     
-        <p> Noeeeeeeeeeeeeeeeeees</p>
-        </div>
+    <main>
+      
+        <div class="formulaire" style="color: black;">
+            <form>
+                <label for="Nom"> Nom & prénom</label> 
+                <input type="text" name="Nom" id="Nom" placeholder="Votre nom & prénom">
+           
+    
+                 <label for="Email">E-mail</label>
+                <input type="email" name="Email" id="Email" placeholder="Votre adresse mail"> 
+               <label for="tel">Télephone</label>
+              <input type="tel" name="tel" id="tel" placeholder="Votre numéro de télephone">
+                <label for="sujet">Sujet</label>
+                <input type="text" name="sujet" id="sujet" placeholder="L'objet de votre message"> 
+                  <label for="Message">Message</label>
+                <textarea name="message" id="message" placeholder="Votre message" style="height:200px">  </textarea> 
+                <input type="submit" value="Envoyer">
+            </form> 
+   
+
+   
+</div>
 
 </main>
