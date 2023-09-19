@@ -1,5 +1,5 @@
 *{
-     text-decoration: none; 
+    text-decoration: none; 
      margin: 0 auto;
     padding: 0px;
    
@@ -9,8 +9,9 @@
     
 }
 body {
+   
     background-color:white;
-    color: white;
+color: white;
     font-family: 'Bebas Neue', sans-serif;
 
 }
@@ -194,7 +195,7 @@ input, textarea, input[type=email] {
                 background-color: #64070a;
               }
 
-.contenu {
+.contenuhistoire {
     
     position: relative; 
     top: 110px;
@@ -206,7 +207,7 @@ text-shadow: 2px 3px 10px white;
 
 }
 
-.contenu p{
+.contenuhistoire p{
     padding-bottom: 50px;
     font-family: 'National 2 Condensed';
   
@@ -214,7 +215,7 @@ text-shadow: 2px 3px 10px white;
    
 }
 
-.contenu h1 {
+.contenuhistoire h1 {
 
     box-shadow: 1px 1px 2px 0px black;
     margin-bottom: 10px;
@@ -229,4 +230,72 @@ text-shadow: 2px 3px 10px white;
   
    
 }
+.contenumenu {
+    position: relative; 
+    top: 110px;
+    font-size:15px;
+    font-family: 'Bebas Neue', sans-serif;;
+text-shadow: 2px 3px 10px white;
+margin-left: 3em;
 
+
+
+
+}
+.contenumenu h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Bebas Neue', sans-serif;;
+    font-size: 45px;
+text-shadow: 2px 3px 10px white;
+
+}
+
+.contenumenu h3 {
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 26px; 
+}
+
+.contenumenu img {
+width: 40%;
+
+
+}
+.bloc1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+row-gap: 10px ;  
+
+
+
+
+
+    
+    
+  }
+ .bloc1 div {
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+    
+    
+ }
+
+ .prix {
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+ }
+.Description {
+ font-size: 15px;
+ font-family: 'Viga', sans-serif;
+ 
+    
+
+   
+}
