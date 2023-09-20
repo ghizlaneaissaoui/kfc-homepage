@@ -225,3 +225,75 @@ input[type="submit"]:hover {
   font-size: 15px;
   font-family: "Viga", sans-serif;
 }
+
+
+.contenuloca {
+  position:relative;
+  top: 110px;
+  text-align:center;
+ 
+
+}
+.formliste {
+  position: relative;
+  width: 350px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #CED4DA;
+}
+
+.contenuloca div {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 10px;
+  font-size: 19px;
+
+}
+
+.contenuloca img {
+  width:70px;
+  height: 70px;
+  display: block;
+  float: right;
+  line-height: 21px;
+  text-align: right;
+  position: relative;
+  top: -40px;
+}
+
+  select{
+     outline: 0;
+    border: 0 ;
+    background: #F9F9F9;
+    font-size: 1.2em;
+    width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-left: 15px;
+  color: #555555;
+  cursor: pointer;
+  }
+  .formliste::after {
+    content: '\276F';
+    position: absolute;
+    top: 15%;
+    right: 0;
+    padding: 0 15px;
+    pointer-events: none;
+    transform: rotate(90deg);
+    font-size: 1.5em;
+    background: #F9F9F9;
+  }
+  .formliste:hover::after {
+    color: #a3080c;
+  } 
+
+.liste {
+  background-color: grey;
+  border: 1px dotted #999;
+  border-radius: 0;
+}
+
