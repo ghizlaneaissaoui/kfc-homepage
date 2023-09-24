@@ -7,7 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Viga&display=swap" rel="stylesheet">
-    </head>
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<script src="scripts/script.js" defer> </script>
+
+
+</head>
 
 <body background="images/fond2.png" style="background-size: cover;overflow-x: hidden;">
 
@@ -31,32 +35,52 @@
 </ul>
 </nav>
 
-<main>
+<main style="margin-bottom:30%";>
     <div class="banniere" style="background-image: url(images/contact.jpg); ">
         <h1> Contactez-nous</h1>
     </div>
     
-    <main>
       
         <div class="formulaire" style="color: black;">
             <form>
                 <label for="Nom"> Nom & prénom</label> 
-                <input type="text" name="Nom" id="Nom" placeholder="Votre nom & prénom">
+                <input type="text" name="Nom" id="name" placeholder="Votre nom & prénom">
            
     
                  <label for="Email">E-mail</label>
-                <input type="email" name="Email" id="Email" placeholder="Votre adresse mail"> 
+                <input type="email" name="email" id="email" placeholder="Votre adresse mail"> 
                <label for="tel">Télephone</label>
               <input type="tel" name="tel" id="tel" placeholder="Votre numéro de télephone">
                 <label for="sujet">Sujet</label>
-                <input type="text" name="sujet" id="sujet" placeholder="L'objet de votre message"> 
+                <input type="text" name="sujet" id="subject" placeholder="L'objet de votre message"> 
                   <label for="Message">Message</label>
                 <textarea name="message" id="message" placeholder="Votre message" style="height:200px">  </textarea> 
-                <input type="submit" value="Envoyer">
+                <button onclick="sendmsg();"type="button" id="submit" value="send">Envoyer </button>
+                <div id="votremessage" style="padding-top:20px;"> <p>Votre message a bien été envoyé.</p></div>
             </form> 
    
 
    
 </div>
 
+
 </main>
+<footer>
+    <div class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/kfc/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://x.com/kfc?s=20"> <i class='bx bxl-twitter' ></i></a>
+        <a href="https://www.youtube.com/KFC"><i class='bx bxl-youtube' ></i></a>
+        </div>
+    
+    <ul class="listfooter">
+        <li class="footeritem"><a href="index.html">Accueil</a></li>
+        <li class="footeritem"><a href="menu.html">Menu</a></li>
+        <li class="footeritem"><a href="histoire.html">Histoire</a></li>
+        <li class="footeritem"><a href="temoignages.html">Clients</a></li>
+        <li class="footeritem"><a href="loca.html">Restaurants</a></li>
+        <li class="footeritem"><a href="formulaire.html">Contact</a></li>
+    </ul>
+    <p class="copyright">Ghizlane Aissaoui @2023</p>
+</div></footer>
+</body>
